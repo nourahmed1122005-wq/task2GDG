@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p class="name">Campus Code Club</p>
+        <nav>
+            <ul>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#join">Join</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="two">
+            <h1>Build Night</h1>
+            <p>An evening of live coding, snacks and friendly help for first-time web builders.</p>
+            <p class="home">Friday evening | Room 204</p>
+            <a href="#join" class="btn btn-yellow">Reserve my seat</a>
+        </div>
+        <div class="content">
+            <section class="schedule" id="schedule">
+                <h2>Schedule</h2>
+                <ul>
+                    <li>Doors open and setup help</li>
+                    <li>Live demo: a web page from scratch</li>
+                    <li>Pair building time</li>
+                    <li>Show and tell</li>
+                </ul>
+            </section>
+            <section id="speakers">
+                <h2>Speakers</h2>
+                <div class="speaker-grid">
+                    <article class="speaker">
+                        <h3>Priya N.</h3>
+                        <p>Frontend mentor. Loves tidy CSS.</p>
+                    </article>
+                    <article class="speaker">
+                        <h3>Marcus L.</h3>
+                        <p>Accessibility fan. Tests with a keyboard.</p>
+                    </article>
+                    <article class="speaker">
+                        <h3>Aiko T.</h3>
+                        <p>Design student. Collects colour palettes.</p>
+                    </article>
+                </div>
+            </section>
+            <aside class="info">
+                <h3>Good to know</h3>
+                <ul>
+                    <li>Bring your laptop</li>
+                    <li>VS Code and Chrome installed</li>
+                    <li>Snacks provided</li>
+                    <li>Beginners welcome</li>
+                </ul>
+            </aside>
+        </div>
+        <section class="three" id="join">
+            <h2>Save your seat</h2>
+            <p>Seats are limited, so reserve yours today.</p>
+            <a href="#contact" class="btn btn-blue">Reserve my seat</a>
+        </section>
+        <div class="connect" id="contact">
+            <section class="profile-card">
+                <div class="avatar">AM</div>
+                <div class="profile-text">
+                    <h2>Alex Morgan</h2>
+                    <p class="role">Frontend Developer</p>
+                    <p>Building friendly, accessible websites. Currently learning CSS with GDG on Campus.</p>
+                    <a class="btn btn-blue" href="#contact">Say hello</a>
+                </div>
+            </section>
+            <section class="contact-form">
+                <h2>Send Alex a message</h2>
+                <form action="#" method="post">
+                    <label>Your name <input type="text" required></label>
+                    <label>Email <input type="email" required></label>
+                    <label>Message <textarea required></textarea></label>
+                    <button class="btn btn-blue" type="submit">Send message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
